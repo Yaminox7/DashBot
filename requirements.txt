@@ -1,3 +1,2 @@
 https://github.com/Rapptz/discord.py/blob/master/discord/__init__.py
-discord-ui
 python-dotenv
