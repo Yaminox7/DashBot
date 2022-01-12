@@ -1,7 +1,9 @@
 import discord
 
 button = discord.ui.Button
-"""from discord.ui import Button, View
+
+import discord
+from discord.ui import Button, View
 from discord.ext import commands
 import json
 import os
@@ -217,7 +219,6 @@ async def unban(ctx):
       await interaction.response.edit_message(embed=embed())
     async def exit_callback(interaction):
       await interaction.message.delete()
-"""
     button1.callback = callback1
     button2.callback = callback2
     button3.callback = callback3
