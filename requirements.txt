@@ -1,3 +1,3 @@
-discord.py
+git clone https://github.com/Rapptz/discord.py/blob/master/discord/__main__.py
 discord-ui
 python-dotenv
