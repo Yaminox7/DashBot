@@ -2,6 +2,7 @@ import discord
 from discord.ui import Button, View
 from discord.ext import commands
 import json
+import os
 
 def get_prefix(bot, message): 
   with open("prefix.json", "r") as f:
@@ -231,4 +232,4 @@ async def say(ctx, message, times=1, delete=2.5):
     elif type(message) == discord.Member:
       await ctx.send(message.mention, delete_after=delete)
 
-bot.run("OTI4MzM3MzUyNzIyNjE2MzIx.YdXTiA.iC4U5zxs-KGl54vdvt_3JaEAkc0")
+bot.run(os.getenv("DISCORD_TOKEN"))
