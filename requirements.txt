@@ -1,3 +1,2 @@
 discord.py
 python-dotenv
-discord-ui==5.1.6
