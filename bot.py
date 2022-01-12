@@ -1,6 +1,8 @@
-import discord
+import os
 
-button = discord.ui.Button
+os.system('pip install git+"https://github.com/Rapptz/discord.py"')
+os.system("pip install git+'https://github.com/Pycord-Development/pycord'")
+os.system('pip install discord.ui')
 
 import discord
 from discord.ui import Button, View
