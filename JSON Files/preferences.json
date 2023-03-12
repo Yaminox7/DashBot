@@ -1,0 +1,18 @@
+{
+    "965667240353624114": {
+        "Logs": {
+            "on_bot_message_delete": true,
+            "on_channel_edit": true,
+            "on_channel_create": true,
+            "on_channel_delete": true,
+            "on_channel_nuke": true,
+            "on_member_join": true,
+            "on_member_remove": true,
+            "on_member_ban": true,
+            "on_member_kick": true,
+            "on_member_mute": true,
+            "on_member_unban": true,
+            "on_member_unmute": true
+        }
+    }
+}
